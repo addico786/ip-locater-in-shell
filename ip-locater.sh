@@ -18,6 +18,4 @@ then
         echo "REGION: $region"
         country=$(echo $res | jq '.country' -r)
         echo "COUNTRY: $country"
-
-
 fi
